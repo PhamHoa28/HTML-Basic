@@ -1,0 +1,54 @@
+
+/*Reset CSS*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+/*/End Reset Css*/
+
+/*Style Body*/
+	body {
+		background-color: #001500;
+		font-family: Rotobo;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 22px;
+	}
+/*/End Style Body*/
+
+.text-center{
+	text-align: center;
+}
+/* Style Wrapper */
+#wrapper{
+	margin: 0px auto;
+	width: 960px;
+}
+/* /End Style Wp */
+
+/* Style Header */
+	#header{
+		background-color: #33f; 
+		padding: 11px   0px   13px   0px;
+				/* trên  phải	dưới trái */
+		color: black;
+		text-align: center;
+	}
+/* End style head */
+
+/* Style Content */
+	#content{
+		background-color: #f6f;
+		padding: 20px 15px;
+		min-height: 500px;
+	}
+/* /end style cont */
+/* Style footer */
+	#footer{
+		background-color: #ff6;
+		padding: 24px 0px 34px 0px;
+		text-align: center;
+		color: black;
+	}
+/* /end Style Footer */

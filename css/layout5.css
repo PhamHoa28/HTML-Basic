@@ -1,0 +1,32 @@
+body{
+	background: #fff;
+	font-family: Times New Roman OS;
+	font-size: 22px;
+	font-weight: 500;
+}
+#header{
+	background: #0c9;
+	height: 85px;
+
+}
+#logo{
+	/* padding: 10px 15px 13px 300px; */
+	width: 90px;
+	height: 80px; 
+	margin: 3px 84px 29px 313px;
+}
+.menu{
+	float: right;
+	padding: 28px;
+	margin-right: 187px;
+	border: 25px;
+}
+.menu a{
+	text-decoration: none;
+	padding: 25px;
+	color: whitesmoke;
+}
+a:hover{
+	background-color: #396;
+	border: solid #396 6.5px;
+}

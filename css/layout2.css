@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+/* Style body */
+body{
+	background-color: #fff;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 20px;
+}
+/* End body */
+.text-center{
+	text-align: center;
+}
+/* Style wrapper */
+#wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* Style Header */
+#header{
+	background-color: black;
+	color: white;
+	padding: 16px 15px 13px 10px ;
+	
+}
+/* style wp-content */
+#wp-content{
+background: #0fc;
+}
+/* End header */
+/* Style sidebar */
+#sidebar{
+	background-color: gray;
+	min-height: 850px;
+	width: 270px;
+	/* float: left; Sidebar o ben trai */
+	float: right;
+}
+
+
+/* End sidebar */
+/* Style content */
+#content{
+	background-color: #0fc;
+	min-height: 850px;
+	width: 690px;
+}
+/* End content */
+/* Style Footer */
+#footer{
+	background-color: black;
+	padding: 16px 2px 14px 0px;
+	color: white;
+}
+/* End footer */
